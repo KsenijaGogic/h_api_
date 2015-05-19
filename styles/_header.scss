@@ -1,0 +1,37 @@
+header {
+	text-align: center;
+	height: 70vh;
+	display: flex;
+	text-transform: lowercase;
+	.wrapper {
+		position: relative;
+	}
+	h1 {
+		font-size: 2.7rem;
+		padding-top: 250px;
+		padding-bottom: 100px;
+	}
+	h2 {
+		padding: 20px 0;
+	}
+	h3.logo {
+		left: -120px;
+		position: absolute;
+		font-size: 1.5rem;
+		color: $orange;
+	}
+
+	h3.logo span {
+		color: white;
+	}
+
+	.flexContainer {
+		display: flex;
+		justify-content: center;
+	}
+
+	.emTxt {
+		width: 30%;
+	}
+}
+

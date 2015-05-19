@@ -1,0 +1,25 @@
+.responses {
+	position: relative;
+	.background {
+		height: 70vh;
+		width: 100%;
+		background: url(../assets/linedPaper.svg) no-repeat;
+		background-size: 100%;
+	}
+	ul {
+		font-size: 1.5rem;
+		color: black;
+		padding: 10px;
+		height: 40vh;
+		// background: url(../assets/linedPaper.svg) no-repeat;
+		background-size: 100%;
+		position: absolute;
+		top: 115px;
+		left: 500px;
+		line-height: 1.5;
+		// width: 95%;
+		li {
+			width: 760px;
+		}
+	}
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>get h{api}</title>
+	<!-- FAVICON Swear to the lord if you forget another favicon i'mma cut you -->
+	<link rel="icon" href="assets/favicon-small-01.png">
+	<!-- STLYES -->
+	<link rel="stylesheet" href="styles/flickity.min.css">
+	<link rel="stylesheet" href="styles/animate.css">
+	<link rel="stylesheet" href="styles/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	
+	<header>
+		<div class="wrapper">
+			<h3 class="logo">get h<span>{api}</span></h3>
+			<h1>hey. <span class="time"> </span></h1>
+			<h2>Sometimes it's hard to be positive, but there are few things as effective and efficient as a <span class="accent">positive mindset</span> to turn shit around.</h2>
+			<!-- <div class="flexContainer">
+				<p class="emTxt">seriously. there's <em>science</em> to back this up.</p> 
+				<p class="emTxt">feeling good? <em>feel better.</em></p> 
+				<p class="emTxt">feeling anything else? <em>you don't have to.</em></p>
+			</div> -->
+		</div>
+	</header>
+
+	<section class="getStarted shared">
+		<div class="wrapper">
+			<p>Becoming positive is easy. I'm going to ask you to reflect on the past 24 hours. Your task is to say <span class="accent">one positive</span> thing per prompt. <a class="girl" href="https://youtu.be/qR3rK0kZFkg">This little girl</a> can give you a good idea of what to do.</p>
+			<a href="#prompt"><button class="leggo">Let's Do It!</button></a>
+		</div>
+	</section>
+
+	<section id= "prompt" class="prompt shared">
+		<div class="wrapper">
+			<div class="gallery js-flickity" data-flickity-options='{ "draggable": false, "pageDots": false }'>
+				<div class="gallery-cell">
+					<h3 class="prompt">What's something you <span class="accent">accomplished</span> that made you <span class="accent">feel proud</span>?</h3>
+				</div>
+				<div class="gallery-cell">
+					<h3 class="prompt">What's something you're <span class="accent">really good at</span> or that you <span class="accent">enjoy doing</span> that you got to do?</h3>
+				</div>
+				<div class="gallery-cell">
+					<h3 class="prompt">What's something upcoming you're really <span class="accent">looking forward to</span>?</h3>
+				</div>
+				<div class="gallery-cell">
+					<h3 class="prompt">What's something <span class="accent">positive</span> you thought about <span class="accent">someone else</span> today?</h3>
+				</div>
+				<div class="gallery-cell">
+					<h3 class="prompt">What's something about <span class="accent">yourself</span> that you <span class="accent">really like</span>?</h3>
+				</div>
+				<div class="gallery-cell">
+					<h3 class="prompt"><span class="accent">All done! Come back tomorrow to remind yourself how awesome you are.</span></h3>
+				</div>
+			</div>
+
+			<form action="journal">
+				<label for="sentiment">Be <span class="accent">kind</span>, <span class="accent">positive</span> and <span class="accent">forgiving</span> to yourself here: </label>
+				<div class="flexForm">
+					<input type="text" name="sentiment" id="sentiment" class="animated">
+					<input type="submit" class="submit" value="Nice thoughts!">
+				</div>
+				<p class="tip"><em>Tip: Repeating the prompt in your response reinforces the thought more effectively in your mind. Feel free to elaborate!</em></p>
+			</form>
+		</div>
+	</section>
+
+	<section class="responses">
+		<div class="wrapper">
+			<div class="background"></div>		
+			<ul class="list"></ul>
+		</div>
+	</section>
+
+	<footer>
+		<div class="wrapper">
+			<div class="credit">
+				<p>This app is built on IBM's <a href="http://www.alchemyapi.com/">Alchemy API</a>, using their <a href="http://www.alchemyapi.com/api/sentiment-analysis">Sentiment Analysis API.</a></p>
+			</div>
+			<div class="inspo">
+				<p>Don't believe me? Just watch: Shawn Achor talk about <a href="https://www.ted.com/talks/shawn_achor_the_happy_secret_to_better_work?language=en#t-722296"><em>The Happy Secret to Better Work</em></a>.</p>
+				<p>If you're more of an analogue person, check out the <a href="http://www.fiveminutejournal.com/">5 Minute Journal.</a></p>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+	<!-- Calling jQuery here -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	
+	<!-- Calling moment.js here? -->
+	<!-- Moment.JS said to "concatenate your script." Figure wtf they mean. -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"></script> 
+	
+	<!-- This is my flickity loading 8-) -->
+	<script src="http://flickity.metafizzy.co/flickity.pkgd.min.js"></script>
+
+	<!-- This is smoothscrull -->
+	<script src="scripts/smoothscroll.js"></script>
+	
+	<!-- Linking my JS here -->
+	<script src="scripts/app.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,32 @@
+section.getStarted {
+	.wrapper {
+		height: 30vh;
+		padding: 40px 0;
+		text-align: center;
+		font-size: 1.2rem;
+		font-weight: 700;		
+	}
+	a.girl {
+		color: white;
+		text-decoration: none;
+		display: inline-block;
+		border-left: 2px solid white;
+		padding: 0 5px;
+		transition: all 0.5s;
+		&:hover{
+			border-left: 2px solid $orange;
+		}
+
+	}
+	.leggo {
+		background: none;
+		font-family: 'Nixie One', monospace;
+		text-shadow: 0px 2px 0 rgba(0,0,0,0.1);
+		box-shadow: 0px 2px 0 rgba(0,0,0,0.1);
+		color: white;
+		border: 1px solid white;
+		padding: 10px;
+		border-radius: 5px;
+		font-weight: 700;
+	}
+}

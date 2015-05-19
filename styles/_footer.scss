@@ -1,0 +1,31 @@
+footer {
+	border-top: 3px solid rgb(250,250,250);
+	width: 100%;
+	background: white;
+	padding: 20px;
+	color: black;
+	a {
+		color: $mint;
+		text-decoration: none;
+		display: inline-block;
+		border-left: 2px solid $mint;
+		padding: 0 5px;
+		transition: all 0.5s;
+		&:hover{
+			border-left: 2px solid white;
+		}
+	}
+	.wrapper {
+	display: flex;
+	justify-content: space-between;
+		.credit {
+			width: 48%;
+			font-size: 1.2rem;
+			text-align: right;
+		}
+		.inspo {
+			width: 48%;
+			font-size: 0.8rem;
+		}
+	}
+}
