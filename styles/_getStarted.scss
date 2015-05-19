@@ -10,11 +10,12 @@ section.getStarted {
 		color: white;
 		text-decoration: none;
 		display: inline-block;
-		border-left: 2px solid white;
-		padding: 0 5px;
+		// border-left: 2px solid white;
+		border-bottom: 2px dotted white;
+		// padding: 0 0 0 5px;
 		transition: all 0.5s;
 		&:hover{
-			border-left: 2px solid $orange;
+			border-bottom: 2px dotted $orange;
 		}
 
 	}
